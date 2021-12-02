@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&display=swap');
+
+
+:root{
+    --bright-red: #f25f3a;
+    --dark-blue: #242d52;
+    --dark-greyish-blue: #9095a7;
+    --very-vark-blue: #1d1e25;
+    --very-pale-red: #ffefeb;
+    --vary-light-gray: #fafafa;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam', sans-serif;
+    color: var(--dark-blue);
+}
+body{
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+a{
+    color: var(--vary-light-gray);
+}
+#container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.max{
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.btn{
+    text-decoration: none;
+    background-color: var(--bright-red);
+    box-shadow: 0 7px 5px var(--very-pale-red);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+/* @media only screen and  (max-width: 400px){
+   body{
+    background-color: #ff0000;    
+   } 
+}
+
+
+@media only screen and  (min-width: 401px ) and (max-width: 960px){
+ body{
+     background-color: #ffffff;
+ }
+}
+
+@media only screen and (min-width: 961px){
+    body{
+        background-color: purple;
+    }
+} */

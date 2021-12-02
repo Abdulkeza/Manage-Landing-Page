@@ -1,0 +1,373 @@
+
+
+#landing .max{
+    /* width: 100%;
+    margin: 0 auto; */
+    display: flex;
+    min-height: 600px;
+    max-height: 1000px;
+    max-height: auto;
+}
+#landing .descript{
+    height: 100%;
+    width: 50%;
+    /* display: inherit;
+    justify-content: center;
+    flex-direction: column; */
+    padding: 10% 0;
+}
+#landing .descript h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 55px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+#landing .descript h3{
+
+    font-weight: 400;
+    color: var(--dark-greyish-blue);
+    padding-right: 20px;
+    margin-bottom: 60px;
+
+}
+
+#landing .descript .btn a{
+    text-decoration: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#landing .intro{
+    width: 50%;
+}
+#differential{
+    display: flex;
+    /* flex-direction: row; */
+    min-height: 600px;
+    max-height: auto;
+
+}
+
+
+
+
+
+/* !!!!!!!!!!both what different and span, items start here!!!!!!!!!!! */
+
+
+
+
+
+#differential .max{
+ 
+    padding-top: 10%;
+    display: inherit;
+}
+#differential .descrip{
+    padding-right: 30px;
+    width: 50%;
+}
+#differential .descrip h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 55px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+#differential .descrip h3{
+    font-weight: 400px;
+    color: var(--dark-greyish-blue);
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+#differential .list{
+    padding-left: 30px;
+    width: 50%;
+}
+#differential .list ul{
+    list-style: none;
+   
+}
+#differential .list .items{
+    display: grid;
+    grid-template-columns: 60px calc(100% - 60px);
+
+}
+#differential .list .items span{
+    width: 60px;
+    height: 35px;
+    background-color: var(--bright-red);
+    color: white;
+    border-radius: 30px;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+    
+}
+#differential .list .items .box-items{
+    margin-left: 30px;
+}
+#differential .list .items .box-items h1{
+ 
+    font-size: 1.3rem;
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+}
+#differential .list .items .box-items h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--dark-greyish-blue);
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!! CLIENTS SECTION!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+#clients{
+
+    display: flex; /*display over horizontal axis*/
+    min-height: 600px;
+    max-height: 1400px;
+    justify-content: center;
+    
+}
+#clients .max{
+    padding-top: 10% 0;
+    display: inherit;             /* under btn */
+    flex-direction: column;        /* under btn */
+    align-items: center;           /* under btn */
+   
+
+}
+
+#clients h1{
+    text-align: center;
+    font-size: 2rem;
+    /* margin-bottom: 130px; */
+
+}
+
+
+#clients .cards{
+    display: flex;
+    padding: 10% 0 10% 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#clients .card{
+    /* width: 1fr; this allow responsiveness*/
+    width: 450px;
+    height: 170px;
+    background-color: #f0f0f0;
+    position: relative; /* allow to move avatar inner this box only*/
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 30px 20px;
+    /* box-shadow: 0 0 1px rgb(49, -49, -49); */
+}
+
+#clients .card .avatar{
+    position: absolute; /*allow to move avatar*/
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    top: -18%;
+    left: 50%;
+    transform: translateX(-50%); /*centering perfectly*/
+}
+#clients .card h1{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    /* padding-top: 40px; */
+}
+#clients .card h3{
+    font-size: .9rem;
+    font-weight: 400;
+    color: var(--dark-greyish-blue);
+    text-align: center;
+ 
+
+}
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!Button under cards!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+#clients .btn{
+    margin-top: 40px;
+    
+}
+#clients .btn a{
+    text-decoration: none;
+
+}
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!ALL FOOTER!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#banner{
+    /* background-image: url(bg-tablet-pattern.svg); */
+    
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    color: #fff0ec33;
+    background-color: var(--bright-red);
+    display: flex;
+
+}
+
+#banner .max{
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+   
+    
+}
+#banner h1{
+    color: white;
+    font-size: 2.3rem;
+    width: 40%;
+}
+
+
+#banner .btn{
+    background-color: white;
+    box-shadow: none;
+
+}
+#banner .btn a{
+    color: var(--bright-red);
+    text-decoration: none;
+    
+}
+footer{
+    background-color: var(--very-vark-blue);
+    display: flex;
+    height: 250px;
+}
+footer .max{
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;     /*separete every div with spacebetween */
+  
+
+}
+footer .network{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*!!!!!!!!!!SOCIAL MEDIAS!!!!!!!!!!*/
+
+footer .socials{
+    height: 100%;
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+footer .network a{
+    margin: 4px;
+}
+
+/*!!!!!!!!!!MENUE BOTTOM!!!!!!!!!!!!!*/
+
+
+footer .utilities{
+    display: flex;      /*displayed to X-axis */
+    flex-direction: column;  /* displayed to column*/
+    align-items: initial ;
+    justify-content: center;
+    width: 40%;
+    height: 60%;
+    flex-wrap: wrap;
+ 
+}
+footer .utilities a{
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 400;
+    color: white;
+    margin: 5px 0;
+
+}
+footer .search{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* justify-content: space-around; add space around it */
+    justify-content: space-evenly;
+}
+
+
+/*!!!!!!!!!!INPUT BOX!!!!!!!!!!!!!!*/
+
+footer .input{
+    border: 0;
+    padding: 0 10px;
+    font-size: .9rem;
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    outline: 0;
+}
+footer .submit{
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    background-color: var(--bright-red);
+    width: 70px;
+    height: 45px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: .9rem;
+    color: white;
+}
+footer .search p{
+    font-size: .8rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* #clients .max{
+    display: inherit; /*allow to display over x-axis
+    
+} */
+
+/* #clients .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

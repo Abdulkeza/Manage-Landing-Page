@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav_logo{
+    display: flex;
+    padding: 40px 25px;
+    
+}
+.humb{
+    margin-left: 200px;
+}
+.nav_ul{
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+
+}
